@@ -1,0 +1,5 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/intvywnq/ngo.intvault.online/backend"
+PassengerBaseURI "/backend"
+PassengerPython "/home/intvywnq/virtualenv/ngo.intvault.online/backend/3.12/bin/python"
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END

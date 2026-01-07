@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SECURITY ALERT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background-color: #dc3545;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .content {
+            padding: 30px;
+            background-color: #f9f9f9;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+            color: #666;
+        }
+        .alert-box {
+            background-color: #f8d7da;
+            border: 2px solid #dc3545;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .info-row {
+            margin: 10px 0;
+        }
+        .label {
+            font-weight: bold;
+            color: #dc3545;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #dc3545;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>⚠ SECURITY ALERT</h1>
+    </div>
+    <div class="content">
+        <p><strong>URGENT: New security incident reported</strong></p>
+        
+        <div class="alert-box">
+            <div class="info-row">
+                <span class="label">Incident Type:</span> {{ incident.get_incident_type_display }}
+            </div>
+            <div class="info-row">
+                <span class="label">Location:</span> {{ incident.where_location }}
+            </div>
+            <div class="info-row">
+                <span class="label">Date/Time:</span> {{ incident.when_date_time }}
+            </div>
+            <div class="info-row">
+                <span class="label">Reported By:</span> {{ incident.reported_by.name }}
+            </div>
+        </div>
+        
+        <p><strong>6Ws Summary:</strong></p>
+        
+        <p><strong>WHO:</strong> {{ incident.who_involved }}</p>
+        
+        <p><strong>WHERE:</strong> {{ incident.where_location }}</p>
+        
+        <p><strong>WHEN:</strong> {{ incident.when_date_time }}</p>
+        
+        <p><strong>WHAT HAPPENED:</strong><br>
+        {{ incident.what_happened }}</p>
+        
+        <p><strong>WHAT YOU DID:</strong><br>
+        {{ incident.what_you_did }}</p>
+        
+        <p><strong>WHAT YOU NEED:</strong><br>
+        {{ incident.what_you_need }}</p>
+        
+        {% if incident.immediate_needs %}
+        <div class="alert-box">
+            <strong>⚠ IMMEDIATE NEEDS:</strong>
+            <p>{{ incident.immediate_needs }}</p>
+        </div>
+        {% endif %}
+        
+        <a href="{{ admin_url }}security/securityincident/{{ incident.id }}/change/" class="button">View Full Report in Admin</a>
+        
+        <p><em>This is an automated alert. Please review the incident immediately and coordinate with relevant stakeholders.</em></p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 South Sudan NGO Forum Security Team</p>
+        <p><strong>CONFIDENTIAL - DO NOT FORWARD</strong></p>
+    </div>
+</body>
+</html>

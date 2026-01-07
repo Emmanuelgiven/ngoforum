@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Reminder</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background-color: #17a2b8;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .content {
+            padding: 30px;
+            background-color: #f9f9f9;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+            color: #666;
+        }
+        .event-box {
+            background-color: white;
+            border: 2px solid #17a2b8;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .info-row {
+            margin: 10px 0;
+        }
+        .icon {
+            display: inline-block;
+            width: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📅 Event Reminder</h1>
+    </div>
+    <div class="content">
+        <p>Dear {{ attendee.attendee_name }},</p>
+        
+        <p>This is a friendly reminder about the upcoming event you registered for:</p>
+        
+        <div class="event-box">
+            <h2>{{ event.title }}</h2>
+            
+            <div class="info-row">
+                <span class="icon">📅</span> <strong>Date:</strong> {{ event.event_date }}
+            </div>
+            
+            {% if event.event_time %}
+            <div class="info-row">
+                <span class="icon">🕐</span> <strong>Time:</strong> {{ event.event_time }}
+            </div>
+            {% endif %}
+            
+            <div class="info-row">
+                <span class="icon">📍</span> <strong>Location:</strong> {{ event.location }}
+            </div>
+            
+            {% if event.venue %}
+            <div class="info-row">
+                <span class="icon">🏢</span> <strong>Venue:</strong> {{ event.venue }}
+            </div>
+            {% endif %}
+            
+            <div class="info-row">
+                <span class="icon">🏢</span> <strong>Organizer:</strong> {{ event.organizer.name }}
+            </div>
+        </div>
+        
+        {% if event.description %}
+        <p><strong>Event Description:</strong></p>
+        <p>{{ event.description|truncatewords:50 }}</p>
+        {% endif %}
+        
+        {% if event.registration_link %}
+        <p><strong>Registration/Meeting Link:</strong><br>
+        <a href="{{ event.registration_link }}">{{ event.registration_link }}</a></p>
+        {% endif %}
+        
+        <p>We look forward to seeing you there!</p>
+        
+        <p>Best regards,<br>
+        South Sudan NGO Forum Events Team</p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 South Sudan NGO Forum. All rights reserved.</p>
+        <p>{{ site_url }}</p>
+    </div>
+</body>
+</html>

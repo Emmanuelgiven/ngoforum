@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Needs Revision</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background-color: #dc3545;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .content {
+            padding: 30px;
+            background-color: #f9f9f9;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+            color: #666;
+        }
+        .warning-box {
+            background-color: #fff3cd;
+            border-left: 4px solid: #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Content Needs Revision</h1>
+    </div>
+    <div class="content">
+        <p>Dear {{ member.name }},</p>
+        
+        <p>Thank you for submitting your {{ content_type }} to the South Sudan NGO Forum. After review, our moderation team has determined that it needs some revisions before it can be published.</p>
+        
+        <div class="warning-box">
+            <strong>Reason for revision:</strong>
+            <p>{{ reason }}</p>
+        </div>
+        
+        <p>Please review the feedback above and make the necessary changes, then resubmit your content through the member portal.</p>
+        
+        <p><strong>What to do next:</strong></p>
+        <ol>
+            <li>Log in to your member portal</li>
+            <li>Review the moderation feedback</li>
+            <li>Make the necessary revisions</li>
+            <li>Resubmit for approval</li>
+        </ol>
+        
+        <p>If you have any questions about the feedback or need clarification, please contact us.</p>
+        
+        <p>Best regards,<br>
+        South Sudan NGO Forum Moderation Team</p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 South Sudan NGO Forum. All rights reserved.</p>
+        <p>{{ site_url }}</p>
+    </div>
+</body>
+</html>

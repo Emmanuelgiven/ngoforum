@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to South Sudan NGO Forum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background-color: #2c5aa0;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .content {
+            padding: 30px;
+            background-color: #f9f9f9;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+            color: #666;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #2c5aa0;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to South Sudan NGO Forum</h1>
+    </div>
+    <div class="content">
+        <p>Dear {{ member.name }},</p>
+        
+        <p>Welcome to the South Sudan NGO Forum! We are thrilled to have your organization join our community of NGOs working to make a difference in South Sudan.</p>
+        
+        <p><strong>Organization Details:</strong></p>
+        <ul>
+            <li>Organization: {{ member.name }}</li>
+            <li>Type: {{ member.get_organization_type_display }}</li>
+            <li>Status: {{ member.get_status_display }}</li>
+        </ul>
+        
+        <p>As a member, you now have access to:</p>
+        <ul>
+            <li>Member self-service portal to manage your profile</li>
+            <li>Submit and track 3W operational data</li>
+            <li>Upload resources and documents</li>
+            <li>Post events, jobs, and training opportunities</li>
+            <li>Report security incidents</li>
+            <li>Participate in forum discussions</li>
+        </ul>
+        
+        <p>To complete your membership verification and unlock automatic content approval, please submit your $200 annual membership payment.</p>
+        
+        <a href="{{ site_url }}/portal/login" class="button">Login to Your Portal</a>
+        
+        <p>If you have any questions or need assistance, please don't hesitate to contact us.</p>
+        
+        <p>Best regards,<br>
+        South Sudan NGO Forum Team</p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 South Sudan NGO Forum. All rights reserved.</p>
+        <p>{{ site_url }}</p>
+    </div>
+</body>
+</html>

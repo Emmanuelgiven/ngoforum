@@ -1,0 +1,24 @@
+# Force HTTPS
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Route API and admin requests to Django via Passenger
+RewriteCond %{REQUEST_URI} ^/api/ [OR]
+RewriteCond %{REQUEST_URI} ^/admin/ [OR]
+RewriteCond %{REQUEST_URI} ^/static/ [OR]
+RewriteCond %{REQUEST_URI} ^/media/
+RewriteRule ^(.*)$ passenger_wsgi.py/$1 [QSA,L]
+
+# Serve Next.js static files from frontend/out
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/api/
+RewriteCond %{REQUEST_URI} !^/admin/
+RewriteRule ^(.*)$ frontend/out/$1 [L]
+
+# Fallback to index.html for Next.js client-side routing
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !^/api/
+RewriteCond %{REQUEST_URI} !^/admin/
+RewriteRule ^ frontend/out/index.html [L]

@@ -1,0 +1,674 @@
+[
+  {
+    "name": "Home",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "About",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "MembershipMembership CriteriaMembership - INGOSMembership - NNGOS",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Membership Criteria",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Membership - INGOS",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Membership - NNGOS",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "What We DoInformation SharingSecurityPolicyExternal EngagementINGO-NNGO Networking",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Information Sharing",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Security",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Policy",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "External Engagement",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "INGO-NNGO Networking",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Resources",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Events",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "ToolsPSEA ToolkitResilience Exchange NetworkDocuments PortalINGOs 3W PresenceNNGOs 3W PresenceState CoordinationNNGO Capacity ToolInternship Initiative",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "PSEA Toolkit",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Resilience Exchange Network",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Documents Portal",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "INGOs 3W Presence",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "NNGOs 3W Presence",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "State Coordination",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "NNGO Capacity Tool",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Internship Initiative",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "FAQs",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Contact Us",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Information Sharing / Communication – The NGO Forum manages an information network that is unique in Southern Sudan. It exists to ensure that there is effective, and transparent, sharing of information relevant to both its members and external stakeholders.",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Coordination – The NGO Forum coordinates NGO activities through its various meetings and through relationships with external stakeholders.",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Representation / Policy / Advocacy / Lobbying – The NGO Forum represents the interests of its members in external meetings, policy discussions, advocacy meetings and documents, and lobbying on issues of common interest.",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Local NGO Development – The NGO Forum is committed to the development and capacity building of Local NGOs through the existence of a specialized Local NGO Forum as well as engagement with INGOs and donors to this end.",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Security – The NGO Forum provides its members with assistance in managing their security by serving as a focal point through which security training, advice, information, and advocacy on humanitarian space may be maintained.",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Complete theapplication form.",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Await endorsement by the Steering Committee which meet every 2 weeks.",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Present a brief description of your organisation and it's activities to the monthly Country Directors or National Directors group, afterwhich membership is voted upon.",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Home",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "About",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Membership",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "What We Do",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Resources",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Events",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Tools",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "FAQs",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Contact Us",
+    "member_type": "NATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Home",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "About",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "MembershipMembership CriteriaMembership - INGOSMembership - NNGOS",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Membership Criteria",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Membership - INGOS",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Membership - NNGOS",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "What We DoInformation SharingSecurityPolicyExternal EngagementINGO-NNGO Networking",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Information Sharing",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Security",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Policy",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "External Engagement",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "INGO-NNGO Networking",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Resources",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Events",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "ToolsPSEA ToolkitResilience Exchange NetworkDocuments PortalINGOs 3W PresenceNNGOs 3W PresenceState CoordinationNNGO Capacity ToolInternship Initiative",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "PSEA Toolkit",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Resilience Exchange Network",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Documents Portal",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "INGOs 3W Presence",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "NNGOs 3W Presence",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "State Coordination",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "NNGO Capacity Tool",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Internship Initiative",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "FAQs",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Contact Us",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Information Sharing / Communication – The NGO Forum manages an information network that is unique in Southern Sudan. It exists to ensure that there is effective, and transparent, sharing of information relevant to both its members and external stakeholders.",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Coordination – The NGO Forum coordinates NGO activities through its various meetings and through relationships with external stakeholders.",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Representation / Policy / Advocacy / Lobbying – The NGO Forum represents the interests of its members in external meetings, policy discussions, advocacy meetings and documents, and lobbying on issues of common interest.",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Local NGO Development – The NGO Forum is committed to the development and capacity building of Local NGOs through the existence of a specialized Local NGO Forum as well as engagement with INGOs and donors to this end.",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Security – The NGO Forum provides its members with assistance in managing their security by serving as a focal point through which security training, advice, information, and advocacy on humanitarian space may be maintained.",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Complete theapplication form.",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Await endorsement by the Steering Committee which meet every 2 weeks.",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Present a brief description of your organisation and it's activities to the monthly Country Directors or National Directors group, afterwhich membership is voted upon.",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Home",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "About",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Membership",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "What We Do",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Resources",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Events",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Tools",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "FAQs",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  },
+  {
+    "name": "Contact Us",
+    "member_type": "INTERNATIONAL",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "description": ""
+  }
+]

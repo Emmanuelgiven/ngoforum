@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Expiring Soon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background-color: #ffc107;
+            color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        .content {
+            padding: 30px;
+            background-color: #f9f9f9;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+            color: #666;
+        }
+        .warning-box {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .benefits-list {
+            background-color: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 15px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>⏰ Membership Renewal Reminder</h1>
+    </div>
+    <div class="content">
+        <p>Dear {{ member.name }},</p>
+        
+        <div class="warning-box">
+            <h3>Your membership expires in {{ days_remaining }} days</h3>
+            <p><strong>Expiry Date:</strong> {{ member.membership_expiry_date }}</p>
+        </div>
+        
+        <p>We hope you have found value in being a member of the South Sudan NGO Forum. To continue enjoying member benefits, please renew your membership before it expires.</p>
+        
+        <div class="benefits-list">
+            <h4>Member Benefits:</h4>
+            <ul>
+                <li>✓ Automatic content approval (no moderation delays)</li>
+                <li>✓ Full access to member portal</li>
+                <li>✓ Submit 3W operational data</li>
+                <li>✓ Upload resources and documents</li>
+                <li>✓ Post events, jobs, and training opportunities</li>
+                <li>✓ Report security incidents</li>
+                <li>✓ Participate in forum discussions</li>
+                <li>✓ Access to exclusive resources and reports</li>
+            </ul>
+        </div>
+        
+        <p><strong>Annual Membership Fee: $200</strong></p>
+        
+        <a href="{{ site_url }}/portal/membership/renew" class="button">Renew Membership Now</a>
+        
+        <p><strong>What happens if my membership expires?</strong></p>
+        <ul>
+            <li>Your account will be set to INACTIVE status</li>
+            <li>Content submissions will require manual moderation</li>
+            <li>Access to some member-only features will be restricted</li>
+            <li>Your organization profile will still remain visible</li>
+        </ul>
+        
+        <p>If you have any questions about membership renewal or payment options, please contact us.</p>
+        
+        <p>Best regards,<br>
+        South Sudan NGO Forum Membership Team</p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 South Sudan NGO Forum. All rights reserved.</p>
+        <p>{{ site_url }}</p>
+    </div>
+</body>
+</html>
